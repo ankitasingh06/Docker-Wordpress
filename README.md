@@ -16,7 +16,7 @@ Implementing wordpress on docker and establishing connection with mysql. There a
 For the downloading the ISO/image files you can go to download it from docker-hub or by using following command download the images first
 
 	mysql image:-	        docker pull mysql:5.7
-	nextcloud image :-	docker pull nextcloud:latest
+	wordpress image :-	docker pull wordpress:latest
 
 *Now there is the dependency of wordpress on database server(here we have take- mysql) so launch "mysql" container(named - dbos) first then launch "wordpress" container.
 
