@@ -18,17 +18,19 @@ For the downloading the ISO/image files you can go to download it from docker-hu
 	mysql image:-	        docker pull mysql:5.7
 	wordpress image :-	docker pull wordpress:latest
 
-*Now there is the dependency of wordpress on database server(here we have take- mysql) so launch "mysql" container(named - dbos) first then launch "wordpress" container.
+* Now there is the dependency of wordpress on database server(here we have take- mysql) so launch "mysql" container(named - dbos) first then launch "wordpress" container.
 
-*Written code in .yml file so that our code is safe either the container gets removed hence promoting "Infrastructure as cloud" so in the same repository there is "docker-compose.yml" file having the main code written.
+* Written code in .yml file so that our code is safe either the container gets removed hence promoting "Infrastructure as cloud" so in the same repository there is "docker-compose.yml" file having the main code written.
 
-*We have used "volume concept" for storing the data permanently 
+* We have used "volume concept" for storing the data permanently 
 
-*Patting concept :- PAT (Port Address Translation) so that our container will have outside connectivity.
+* Patting concept :- PAT (Port Address Translation) so that our container will have outside connectivity.
 
-*For running docker-compose.yml file:-
+* For running docker-compose.yml file:-
 	docker-compose up -d
-*For stopping containers:-
+
+* For stopping containers:-
 	docker-compose stop
-*For again starting docker containers:-
+
+* For again starting docker containers:-
 	docker-compose start
